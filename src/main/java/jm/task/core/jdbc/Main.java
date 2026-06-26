@@ -24,9 +24,11 @@ public class Main {
 
         System.out.println("\nAll users:");
         userService.getAllUsers().forEach(System.out::println);
-
+/*
         userService.cleanUsersTable();
         userService.dropUsersTable();
+
+ */
     }
     }
 
